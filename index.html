@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Inv</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="blue">Paypay.</h1>
+        <nav>
+            <ul class="navbar__list">
+                <li class="header">
+                    <div class="navbar__dashboard">
+                        <i class="fa fa-th-large"></i>
+                        <h3>Dashboard</h3>
+                    </div>
+                </li>
+                <li class="header">
+                    <div class="navbar__invoice">
+                        <i class="fa fa-file-o"></i>
+                        <h3>Invoices</h3>
+                    </div>
+                </li>
+                <li class="header">
+                    <div class="navbar__wallet">
+                        <i class="fa fa-shopping-bag"></i>             
+                        <h3>Wallet</h3>
+                    </div>
+                </li>
+                <li class="header">
+                    <div class="navbar__activity">
+                        <i class="fa fa-bar-chart"></i>
+                        <h3>Activity</h3>
+                    </div>
+                </li>
+                <li class="header">
+                    <div class="navbar__help">
+                        <i class="fa fa-phone"></i>
+                        <h3>Help</h3>
+                    </div>
+                </li>
+           
+             <div class="top_corner_container">
+                <i class="fa fa-bell"></i>
+                <i class="fa fa-cog"></i>
+                <i class="fa fa-user"></i>
+             </div>
+            </ul>
+        </nav>
+    </div>
+    <main class="main__content">
+        <div class="main__content-tittle">
+         <div class="main__content-inv">
+            <h3><span>Invoices</span>/edit invoice(INV-2022-010)</h3>
+         </div>
+         <select name="manage" id="manage">
+             <option value="manage value">Manage Invoice</option>
+         </select>
+       </div>
+       <div class="main__cards">
+           <div class="cards__left">
+               <div class="cards__left-address">
+                   <div class="profile">
+                       <img src="/profile.PNG" alt="">
+                       <h3>Dipa Inhouse <br> <span class="email">hello@dipainhouse.com</span></h3>
+                   </div>
+                   <div class="address">
+                       <p>Ijen Boulevard Street 101 <br>Malang City,65115
+                          <br> East Java, Indonesia 
+                        </p>
+                   </div>
+               </div>
+               <div class="cards__left-info">
+                   <div class="info">
+                       <h3>Invoice Number <br> INV-2022-010</h3>
+                       <P>Issued Date: <span class="info_date">11 Jan 2022</span>
+                          <br>Due Date: <span class="info_date">18 Jan 2022</span></P>
+                   </div>
+                   <div class="left_info">
+                       <p><span class="info_date">Billed to</span><br>Zaky Grizzly
+                          <br> Monlight Agency LTD <br> New York, USA</p>
+                   </div>
+               </div>
+               <div class="card__left-customize">
+                   <div class="items">
+                       <h3>Item Detail</h3>
+                       <p>Type item for <span class="hours">hours</span> item.</p>
+                   </div>
+                   <div class="customize">
+                    <i class="fa fa-key"></i>
+                    <span class="custom">Customize</span>
+                   </div>
+               </div>
+               <table>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Hours</th>
+                    <th>Rate/hr</th>
+                    <th>Tax</th>
+                    <th>Line Total</th>
+                  </tr>
+                  <tr>
+                    <td class="project-payment">Payment Project - Monlight Mobile Design</td>
+                    <td>120</td>
+                    <td><span class="dollar">$</span> 40.00</td>
+                    <td><span class="dollar">$  0.00</span></td>
+                    <td><span class="dollar">$</span> 4,800.00</td>
+                  </tr>
+                  <tr>
+                    <td class="descript">Description</td>
+                  </tr>
+               </table>
+               <div class="payment_method">
+                   <div class="payment_method-account">
+                       <div class="pay-header">
+                           <h3>Payment Method</h3>
+                           <span class="select">select payment</span>
+                       </div>
+                       <div class="account__info">
+                           <h4>Wire Transfer</h4>
+                           <p><span>Account Name:</span>Barly vallendito</p>
+                           <p><span>Account Number:</span>9700 0023 4200 2900</p>
+                           <p><span>Routing Number:</span>084009519</p>
+                       </div>
+                   </div>
+                   <div class="sub-total">
+                      <h4>Sub Total <span class="dollar-bold">$4,800.00</span></h4>
+                      <p>Discount <span class="dollar-bold">$0.00</span></p>
+                      <p>Total tax <span class="dollar-bold">$0.00</span></p>
+                      <p>Total Amount <span class="dollar-bold">$4,800.00</span></p>
+                   </div>
+
+               </div>
+           </div>
+           <div class="cards-right">
+               
+           </div>
+       </div>
+    </main>
+    
+</body>
+</html>
