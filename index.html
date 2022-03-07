@@ -55,7 +55,7 @@
     <main class="main__content">
         <div class="main__content-tittle">
          <div class="main__content-inv">
-            <h3><span>Invoices</span>/edit invoice(INV-2022-010)</h3>
+            <h3><span class="inv">Invoices</span>/edit invoice(INV-2022-010)</h3>
          </div>
          <select name="manage" id="manage">
              <option value="manage value">Manage Invoice</option>
@@ -109,6 +109,7 @@
                     <td><span class="dollar">$</span> 40.00</td>
                     <td><span class="dollar">$  0.00</span></td>
                     <td><span class="dollar">$</span> 4,800.00</td>
+                    <td><i class="fa fa-plus-circle"></i></td>
                   </tr>
                   <tr>
                     <td class="descript">Description</td>
@@ -121,23 +122,57 @@
                            <span class="select">select payment</span>
                        </div>
                        <div class="account__info">
-                           <h4>Wire Transfer</h4>
+                           <div class="transfer">
+                               <h4>Wire Transfer</h4>
+                               <img src="/wise.PNG" alt="">
+                            </div>
                            <p><span>Account Name:</span>Barly vallendito</p>
                            <p><span>Account Number:</span>9700 0023 4200 2900</p>
                            <p><span>Routing Number:</span>084009519</p>
                        </div>
                    </div>
                    <div class="sub-total">
-                      <h4>Sub Total <span class="dollar-bold">$4,800.00</span></h4>
-                      <p>Discount <span class="dollar-bold">$0.00</span></p>
-                      <p>Total tax <span class="dollar-bold">$0.00</span></p>
-                      <p>Total Amount <span class="dollar-bold">$4,800.00</span></p>
+                      <h4><span class="sub-black">Sub Total</span><span class="sub-cash">$4,800.00</span></h4>
+                      <p><span class="amount">Discount</span><span class="discount-cash">$0.00</span></p>
+                      <p><span class="amount-tax">Total tax</span><span class="tax-cash">$0.00</span></p>
+                      <p><span class="amount">Total Amount</span><span class="total-cash">$4,800.00</span></p>
                    </div>
 
                </div>
            </div>
-           <div class="cards-right">
-               
+           <div class="cards__right">
+               <div class="right_clients-detail">
+                  <h3>Client Details</h3> 
+                  <div class="zaky-profile">
+                     <img src="/profile.PNG" alt="">
+                     <h3>Zaky Grizzly <br> <span class="email">grizzly@monlight.com</span></h3>
+                 </div>
+                  <div class="agency">
+                     <h3>Monlight Agency LTD<br> 
+                        <span class="email">9 Acacia Drive Rome, NY 13440, USA</span></h3>
+                 </div>
+                 <button class="add">Add Customer</button>
+               </div>
+               <div class="right-amount">
+                   <h3>Amount Due <span>(USD)</span></h3>
+                   <h2><span></span>$4800.00 <span>(Tax Incl.)</span></h2>
+                   <h3 class="due_date">Due on Jan 20, 2022</h3>
+                   <div class="attach">
+                       <h3>Also attach pdf in mail</h3>
+                       <img src="/switch.PNG"alt="">
+                   </div>
+               </div>  
+               <div class="preview-download">
+                <div class="preview">
+                    <img src="/preview.PNG" alt="">
+                    <h3>Previews</h3>
+                </div>
+                <div class="download">
+                    <img src="/download.PNG" alt="">
+                    <h3>Download</h3>
+                </div>
+                </div>
+                <button class="send">Send Invoice</button>
            </div>
        </div>
     </main>
