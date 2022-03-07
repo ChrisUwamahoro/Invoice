@@ -233,6 +233,7 @@ td {
     border-radius: 10px;
 }
 .descript {
+    margin-top: 20px;
     margin: 40px;
     border-radius: 10px;
 }
@@ -270,7 +271,7 @@ td {
     border-bottom: 3px #f3f3fc solid;
 }
 .sub-total {
-    padding-right: 60px;
+    padding-right: 70px;
     text-align-last: left;
     font-weight: bold;
 }
@@ -289,9 +290,8 @@ td {
 
 }
 .sub-cash {
-    padding-left: 50px;
+    padding-left: 55px;
     color: black;
-
 }
 .dollar-bold {
 padding-left: 40px;
@@ -299,6 +299,24 @@ padding-left: 40px;
 .zaky-profile {
     display: flex;
     border-bottom: 2px #f7f9fb solid ;
+}
+.zacky-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.zacky-menu img {
+    width: 30px;
+    height: 20px;
+    padding-top: 15px;
+}
+.Due-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.Due-menu img {
+    width: 30px;
+    height: 20px;
+
 }
 .zaky-profile img {
     width: 40px;
