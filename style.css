@@ -5,10 +5,8 @@ body {
 }
 .navbar {
     display: flex;
-    background-color: #ffff;    
-}
-.navbar h1 {
-    margin: 1%;
+    background-color: #ffff;
+    margin: 0%;    
 }
 ul {
     display: flex;
@@ -18,7 +16,7 @@ ul {
 .navbar__list {
     display: flex;
     justify-content: flex-end;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     
 }
 .navbar__list h3 {
@@ -27,7 +25,7 @@ ul {
 }
 .top_corner_container {
     display: flex;
-    padding-left: 100px;
+    padding-left: 120px;
     justify-content: space-around;
 }
 .fa-bell {
@@ -45,17 +43,16 @@ ul {
     background-color: #f3f3fc;
     padding-top: 10px;
     padding-left: 10px;
-    margin-right: 10px;
 }
 .fa-user {
     padding-left: 20px;
-    border-left: 2px #f3f3fc solid;
     border-radius: 20px;
     padding-right: 10px;
     background-color: #f3f3fc;
     padding-top: 10px;
     padding-left: 10px;
-    margin-left: 40px;
+    margin-left: 50px;
+    border-bottom: 1px #c7c7d1 solid ;
 }
 
 .navbar__dashboard {
@@ -98,7 +95,7 @@ ul {
 }
 
 span {
-    color: grey;
+    color: #a0a9bc;
 }
 #manage {
     color: #3634c5;
@@ -106,8 +103,9 @@ span {
     height: 40px;
     width: 150px;
     justify-content: center;
-    padding-left: 10px;
+    padding-left: 15px;
     border: 1px white solid;
+    margin-right: 40px;
 }
 .main__content {
     background-color: #f7f9fb;
@@ -228,9 +226,7 @@ td {
 }
 .fa-plus-circle {
     color: #3634c5;
-    /* width: 30px; */
     background-color: white;
-    border-radius: 0% !important;
 }
 .project-payment {
     margin: 40px;
