@@ -3,6 +3,7 @@ body {
     background-color: gainsboro;
     margin-left: 10%;
 }
+
 .navbar {
     display: flex;
     background-color: #ffff;
@@ -217,12 +218,48 @@ table {
     border-top: 1px rgb(216, 211, 211) solid;
 
 }
-td {
+/* td {
     padding-left: 10px;
     background-color: #f3f3fc;
     justify-content: center;
-    height: 30px;
+    height: 30px !important;
     border-radius: 10px;
+} */
+.fa-usd {
+    position: absolute;
+    color: #a0a9bc;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+::placeholder {
+    padding-left: 5px;
+}
+#mynumber {
+    border-radius: 10px;
+    border: 1px #f3f3fc solid;
+    background-color: #f3f3fc;
+    align-items: center;
+    padding: 10px;
+    width: 60px;
+}
+.text-input {
+    border-radius: 10px;
+    border: 1px #f3f3fc solid;
+    background-color: #f3f3fc;
+    align-items: center;
+    padding: 10px;
+}
+#mytext {
+    border-radius: 10px;
+    border: 1px #f3f3fc solid;
+    background-color: #f3f3fc;
+    align-items: center;
+    padding: 20px; 
+    width: 250px;
+    height: 1px;
+}
+#mynumber:focus {
+    border: 1px #f3f3fc solid;
 }
 .fa-plus-circle {
     color: #3634c5;
@@ -403,4 +440,49 @@ padding-left: 40px;
     height: 50px;
     margin-top: 20px;
     border: 1px #f3f3fc solid;
+}
+
+ /* toggle in label designing */
+ .toggle {
+    position : relative ;
+    display : inline-block;
+    width : 60px;
+    height : 30px;
+    background-color: #e4e6eb;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+        
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    transition:  all 0.5s;
+}
+        
+/* Toggle text */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+        
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+    left : 30px; 
+}
+        
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: #3634c5;
+}
+        
+/* Checkbox vanished */
+.checkbox { 
+    display : none;
 }
