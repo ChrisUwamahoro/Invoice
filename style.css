@@ -17,6 +17,7 @@ ul {
 .navbar__list {
     display: flex;
     justify-content: flex-end;
+    padding-top: 20px;
     /* padding-right: 40px; */
     
 }
@@ -225,11 +226,19 @@ table {
     height: 30px !important;
     border-radius: 10px;
 } */
+input {
+    padding-left: 10px;
+}
+.i-input {
+    position: relative;
+}
 .fa-usd {
     position: absolute;
+    left: 5px;
     color: #a0a9bc;
     padding-top: 10px;
     padding-left: 5px;
+    padding-right: 10px;
 }
 ::placeholder {
     padding-left: 5px;
@@ -241,6 +250,8 @@ table {
     align-items: center;
     padding: 10px;
     width: 60px;
+    padding-left: 15px;
+    margin-left: 5px;
 }
 .text-input {
     border-radius: 10px;
@@ -391,33 +402,46 @@ padding-left: 40px;
     justify-content: space-between;
     border-top: 1px #f3f3fc solid;
 }
-.preview {
+.preview-dowload_button {
+    position: relative;
+    left: 5px;
     display: flex;
     background-color: white;
+    color: #3634c5;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
     height: 25px;
     align-items: center;
 }
-.download {
-    display: flex;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 20px;
-    height: 25px;
-    align-items: center;
+.preview-dowload_button i {
+    padding-right: 5px;
+    padding-top: 2px;
 }
-.preview img {
-    width: 30px;
+.load-view {
+    background-color: white;
+    color: #3634c5;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
     height: 20px;
+    align-items: center;
+    text-align: center;
+    border: 2px white solid;
 }
-.download img {
-    width: 30px;
-    height: 30px;
-    /* padding: 20px; */
+.fa-eye {
+    position: absolute;
+    padding-right: 5px;
+    padding-top: 2px;
+    
+    color: #3634c5;
 }
+.fa-file-pdf-o {
+    position: absolute;
+    color: #3634c5;
+
+}
+
 .preview-download {
     display: flex;
     justify-content: space-between;
